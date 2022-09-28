@@ -1,0 +1,53 @@
+.list{
+    margin-left: 15px;
+}
+
+.details{
+    display: flex;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 5px;
+    background-color:gainsboro;
+    padding-left: 5px;
+   
+}
+.detail{
+   padding-right: 15px;
+ 
+}
+
+.unit{
+    margin-bottom: -12px;
+    font-weight: bold;
+}
+.break-btn{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: skyblue;
+   
+    
+}
+.add-break{
+    display: flex;
+    padding: 10px 5px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 5px;
+    background-color:gainsboro;
+    
+}
+.activity-btn{
+    margin-right: 1rem;
+}
+.activity{
+    border: none;
+    padding: 8px 10px;
+    background-color:rgb(113, 113, 223);
+    width: 100%;
+    color: white;
+}
+.ex-time{
+    padding: 10px 5px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 5px;
+    background-color:gainsboro;
+}

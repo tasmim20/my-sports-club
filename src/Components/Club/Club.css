@@ -4,6 +4,7 @@
     margin-left: 50px;
     padding-top: 100px;
     background-color: rgb(224, 241, 249);
+ 
 
 }
 .sports-container{
@@ -13,4 +14,5 @@
 }
 .sport-summary{
     background-color: rgb(183, 201, 195);
+    margin-left: 30px;
 }
