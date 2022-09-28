@@ -1,0 +1,16 @@
+.club-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-left: 50px;
+    padding-top: 100px;
+    background-color: rgb(224, 241, 249);
+
+}
+.sports-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 35px;
+}
+.sport-summary{
+    background-color: rgb(183, 201, 195);
+}

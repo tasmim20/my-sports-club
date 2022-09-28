@@ -1,0 +1,27 @@
+.sport{
+    width: 270px;
+    height: 480px;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.sport img{
+    margin: 7px;
+    width: 256px;
+    height: 256px;
+    border-radius: 8px;
+}
+.sport-detail{
+   padding-left: 15px;
+}
+.btn-list{
+    width: 100%;
+    background-color:rgb(113, 113, 223);
+    border: none;
+    border-radius: 0px 0px 0px 5px;
+    color: white;
+}
+.btn-list:hover{
+    background-color: blue;
+}
