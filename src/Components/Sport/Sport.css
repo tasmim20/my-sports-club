@@ -26,3 +26,15 @@
 .btn-list:hover{
     background-color: blue;
 }
+@media  screen and (max-width:600px ){
+    .sport{
+        margin-bottom: 50px;
+    
+    }
+}
+@media  screen and (max-width:780px ){
+    .sport{
+        margin-bottom: 50px;
+    
+    }
+}

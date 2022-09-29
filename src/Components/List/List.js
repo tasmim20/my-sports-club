@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './List.css';
 
 const List = (props) => {
@@ -9,7 +11,21 @@ const List = (props) => {
   for(const sport of list){
    time = time + sport.time;
   }
-     
+
+  const [breakTime, setBreakTime] = useState([]);
+  const addBreakTime = (time) =>{
+    // console.log(breakTime);
+    setBreakTime(time);
+  }
+  const addToast = () =>{
+    toast.success("Successfully completed..!!!",{
+      position:"top-center"
+    });
+}  
+  
+
+
+
     return (
         <div className='list'>
             <div className='sportsman'>
@@ -37,20 +53,22 @@ const List = (props) => {
             </div>
             <h3>Add  A Break</h3>
             <div className='add-break'>
-             <button className='break-btn'>10s</button>
-             <button className='break-btn'>20s</button>
-             <button className='break-btn'>30s</button>
-             <button className='break-btn'>40s</button>
-             <button className='break-btn'>40s</button>
+             <button onClick={() => addBreakTime(10)} className='break-btn'>10s</button>
+             <button  onClick={() => addBreakTime(20)} className='break-btn'>20s</button>
+             <button  onClick={() => addBreakTime(30)} className='break-btn'>30s</button>
+             <button  onClick={() => addBreakTime(40)}className='break-btn'>40s</button>
+             <button  onClick={() => addBreakTime(50)} className='break-btn'>40s</button>
              
             </div>
             <h3>Exercise Details</h3>
-          <h6 className='ex-time'>Exercise time: {time}</h6>
-          <h6 className='ex-time'>Break Time: </h6>
+          <h6 className='ex-time'>Exercise time: {time}s</h6>
+          <h6 className='ex-time'>Break Time: {breakTime}s </h6>
           <div className='activity-btn'>
-            <button className='activity'>Activity Completed</button>
+            <button onClick={addToast} className='activity'>Activity Completed</button>
+         <ToastContainer></ToastContainer>          
+
           </div>
-        </div>
+      </div>
     
     );
 };
