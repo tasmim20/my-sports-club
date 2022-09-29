@@ -20,26 +20,28 @@ const handleAddToList = (sport) =>{
 }
 
     return (
-   <div className='header-css'>
-        
-            <h1>My Sports Club</h1>
-            <h2>Select today's exercise</h2>
 
-         <div className='club-container'>
-        <div className="sports-container">
-          {
-            sports.map(sport => <Sport
-                 key={sport.id}
-                 sport = {sport}
-                 handleAddToList = {handleAddToList}
-                 ></Sport>)
-          }
-        </div>
-        <div className="sport-summary">
-         <List list={list}></List>
-        </div>
-        </div>
-   </div>
+      <div className='header-css'>
+        
+        <h1>My Sports Club</h1>
+        <h2>Select today's exercise</h2>
+
+     <div className='club-container'>
+    <div className="sports-container">
+      {
+        sports.map(sport => <Sport
+             key={sport.id}
+             sport = {sport}
+             handleAddToList = {handleAddToList}
+             ></Sport>)
+      }
+    </div>
+    <div className="sport-summary">
+     <List list={list}></List>
+    </div>
+    </div>
+</div>
+
     );
 };
 
