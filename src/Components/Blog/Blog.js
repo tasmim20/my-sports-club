@@ -9,7 +9,7 @@ const Blog = () => {
              <p>React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code.React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. It designs simple views for each state in your application, and React will efficiently update and render just the right component when your data changes.</p>
             </div>
             <div className='blog'>
-            <h4>What is difference between props and state...?</h4>
+            <h4>2.What is difference between props and state...?</h4>
             <p> Props are immutable
              which lets React do fast reference checks.
              Props are used to pass data down from your view-controller
@@ -21,7 +21,7 @@ const Blog = () => {
            </p>
             </div>
             <div className='blog'>
-               <h4>What does useEffect do without load API through fetch..?</h4>
+               <h4>3.What does useEffect do without load API through fetch..?</h4>
                <p>By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed and call it later after performing the DOM updates. In this effect, we set the document title, but we could also perform data fetching or call some other imperative API.</p>
             </div>
         </div>
