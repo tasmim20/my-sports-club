@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBasketball} from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import List from '../List/List';
 import Sport from '../Sport/Sport';
@@ -23,7 +25,10 @@ const handleAddToList = (sport) =>{
 
       <div className='header-css'>
         
+        <div className='icon'>
+        <h1 className='icon2'><FontAwesomeIcon icon={faBasketball}></FontAwesomeIcon></h1>
         <h1>My Sports Club</h1>
+        </div>
         <h2>Select today's exercise</h2>
 
      <div className='club-container'>

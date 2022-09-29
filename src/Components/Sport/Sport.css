@@ -26,9 +26,10 @@
 .btn-list:hover{
     background-color: blue;
 }
-@media  screen and (max-width:600px ){
+/* @media  screen and (max-width:600px ){
     .sport{
         margin-bottom: 50px;
+        
     
     }
 }
@@ -37,4 +38,4 @@
         margin-bottom: 50px;
     
     }
-}
+} */

@@ -8,7 +8,7 @@
 
 .club-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     padding-top: 20px;
 }
 
@@ -23,45 +23,41 @@
     margin-left: 30px;
     margin-top: -250px;
 }
+.icon{
+    display: flex;
+    
+}
+.icon2{
+    margin-right: 10px;
+}
 
-@media  screen and (max-width:600px ) {
-       
-    .header-css{
-        margin-left: 0px;
-        margin-right: 10%;
-        margin-left: 25%;
-       
-    }
+@media  screen and (max-width:600px ) { 
     .sport-summary{
-       margin-left: 20%;
-        margin-right: 15%;
+       
         margin-top: 30px;
-
     }
+   
     .club-container{
         grid-template-columns: repeat(1, 1fr);
     }
+ 
     .sports-container{
         grid-template-columns: repeat(1, 1fr);
-        margin-right: 0px;
-        padding-right: 0px;
+       
       
     }
 }
-@media  screen and (max-width:780px){
+@media  screen and (max-width:992px){
     .club-container{
         grid-template-columns: repeat(1, 1fr);
     }
     .sports-container{
         grid-template-columns: repeat(2, 1fr);
-        margin-right: 0px;
-        padding-right: 0px;
       
     }
     .sport-summary{
-        margin-left: 20%;
-         margin-right: 15%;
          margin-top: 30px;
- 
-    } 
-}
+  margin-left: 20%;
+        margin-right: 15%;
+    }
+} 
