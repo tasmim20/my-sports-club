@@ -20,7 +20,12 @@ const handleAddToList = (sport) =>{
 }
 
     return (
-        <div className='club-container'>
+   <div className='header-css'>
+        
+            <h1>My Sports Club</h1>
+            <h2>Select today's exercise</h2>
+
+         <div className='club-container'>
         <div className="sports-container">
           {
             sports.map(sport => <Sport
@@ -34,6 +39,7 @@ const handleAddToList = (sport) =>{
          <List list={list}></List>
         </div>
         </div>
+   </div>
     );
 };
 

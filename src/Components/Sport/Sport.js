@@ -12,9 +12,9 @@ const Sport = (props) => {
             <img src={image} alt=""></img> 
             <div className='sport-detail'>
            <h3>{title}</h3>
-            <p>{description}</p>
-            <p>For age: {age}</p>
-            <p>Time required: {time}</p>
+            <p><small>{description}</small></p>
+            <p> <small>For age: {age}</small></p>
+            <p><small>Time required: {time}</small></p>
             </div>
             <button onClick={() =>props.handleAddToList(props.sport)} className='btn-list'>
                 <p>Add to list</p>

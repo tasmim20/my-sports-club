@@ -1,5 +1,8 @@
 .list{
     margin-left: 15px;
+    position: sticky;
+    top:0;
+   
 }
 
 .details{

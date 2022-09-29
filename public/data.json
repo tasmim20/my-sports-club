@@ -3,7 +3,7 @@
     "id": "1",
     "image" : "images/cricket.jpg",
    "title" : "Cricket",
-   "description" : "this is my game",
+   "description" : "The sport of cricket is the second most popular sport worldwide with over 2.5 billion fans.",
    "age":  "20-27",
    "time":30
    
@@ -12,7 +12,7 @@
     "id": "2",
     "image" : "images/football.jpg",
    "title" : "Football",
-   "description" : "this is my game",
+   "description" : "Football is a game that requires strength, loads of fitness and cleverness to be played.",
    "age":  "20-26",
    "time":40
 
@@ -22,7 +22,7 @@
     "id": "3",
     "image" : "images/basketball - Copy.jpg",
    "title" : "Basketball",
-   "description" : "this is my game",
+   "description" : "Basketball is a team sport played between two teams of five players each on a rectangular.",
    "age":  "20-28",
    "time":35
    
@@ -32,8 +32,8 @@
   {
     "id": "4",
     "image" : "images/cycle race.jpg",
-   "title" : "Cycle race",
-   "description" : "this is my game",
+   "title" :"Cycle Race",
+   "description":"Road bicycle racing is the cycle sport discipline of road cycling",
    "age":  "18-25",
    "time":37
    
@@ -42,7 +42,7 @@
     "id": "5",
     "image" : "images/spot-runs.jpg",
    "title" : "Marathon race",
-   "description" : "this is my game",
+   "description" : "The marathon is a long-distance  of 42.195 km(26 miles 385 yards).",
    "age":  "20-30",
    "time":42
    
@@ -51,7 +51,7 @@
     "id": "6",
     "image" : "images/project.jpg",
    "title" : "Project",
-   "description" : "this is my game",
+   "description" : " These electronics projects are ideal for students for develop their skills.",
    "age":  "20-35",
    "time":50
    
