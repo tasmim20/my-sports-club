@@ -1,0 +1,14 @@
+.blogs{
+    background-color: rgb(224, 241, 249);
+    margin-left: 50px;
+    padding-top:  30px;
+    padding-left: 10px;
+}
+.blog{
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
