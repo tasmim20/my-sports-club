@@ -4,6 +4,9 @@
     top:0;
    
 }
+.name{
+    margin-bottom: -10px;
+}
 
 .details{
     display: flex;
@@ -47,6 +50,7 @@
     background-color:rgb(113, 113, 223);
     width: 100%;
     color: white;
+    margin-bottom: 20px;
 }
 .ex-time{
     padding: 10px 5px;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './List.css';
@@ -16,7 +16,15 @@ const List = (props) => {
   const addBreakTime = (time) =>{
     // console.log(breakTime);
     setBreakTime(time);
+    localStorage.setItem('time', time);
   }
+useEffect(()=>{
+  const previousTime = localStorage.getItem('time')
+  if(previousTime){
+    setBreakTime(previousTime);
+  }
+},[])
+
   const addToast = () =>{
     toast.success("Successfully completed..!!!",{
       position:"top-center"
@@ -33,7 +41,7 @@ const List = (props) => {
                 <img src="" alt="" />
               </div>
               <div>
-               <h3>Mostafizur Rahman</h3>
+               <h3 className='name'>Mostafizur Rahman</h3>
                <p><small>Dhaka, Bangladesh</small></p>
               </div>
             </div>
@@ -57,7 +65,7 @@ const List = (props) => {
              <button  onClick={() => addBreakTime(20)} className='break-btn'>20s</button>
              <button  onClick={() => addBreakTime(30)} className='break-btn'>30s</button>
              <button  onClick={() => addBreakTime(40)}className='break-btn'>40s</button>
-             <button  onClick={() => addBreakTime(50)} className='break-btn'>40s</button>
+             <button  onClick={() => addBreakTime(50)} className='break-btn'>50s</button>
              
             </div>
             <h3>Exercise Details</h3>
